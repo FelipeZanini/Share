@@ -178,22 +178,27 @@ h3 {
     width: 100%;
 
     background-color: #fffbc2;
+    background-image: url(../images/meet-up.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #meet-text {
-    position: relative;
+    font-size: 180%;
+    background-color: rgba(43, 40, 40);
+    color: white;
+}
 
+#meet-aside {
+    width: 450px;
+    height: 80px;
+
+    position: relative;
+    background-color: rgba(43, 40, 40);
+    color: white;
     top: 250px;
     left: 100px;
-}
-
-#meet-box>h3 {
-    color: black;
-}
-
-#meet-box>p {
-    font-size: 190%;
-    color: black
 }
 
 /*style of map */
