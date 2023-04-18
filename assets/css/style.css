@@ -174,7 +174,7 @@ h3 {
 
 /* meet up box style */
 #meet-box {
-    height: 450px;
+    height: 500px;
     width: 100%;
 
     background-color: #fffbc2;
@@ -185,8 +185,11 @@ h3 {
 }
 
 #meet-text {
+    height: 150px;
+    width: 700px;
+
     font-size: 180%;
-    background-color: rgba(43, 40, 40);
+    background-color: rgba(43, 40, 40, 0.6);
     color: white;
 }
 
@@ -195,7 +198,7 @@ h3 {
     height: 80px;
 
     position: relative;
-    background-color: rgba(43, 40, 40);
+    background-color: rgba(43, 40, 40, 0.6);
     color: white;
     top: 250px;
     left: 100px;
