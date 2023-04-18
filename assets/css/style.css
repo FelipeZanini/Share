@@ -3,9 +3,16 @@ h2, h1, h3, p{
     font-family: Oswald, sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    margin: 0
-  }
+    /*font family and weigth */
+    color: red;
+}
 
 #logo {
     height: 246px;
@@ -31,8 +38,7 @@ body {
     height: 280px;
     width: 100%;
 
-    background-image: url(../images/book.coffee.jpg);
-    background-color: cyan; 
+    background-image: url(../images/book.coffee.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,6 +50,7 @@ body {
 
     position: relative;
     background-color: aquamarine;
+    z-index: 2;
 }
 
 #nav-links {
@@ -60,25 +67,45 @@ body {
 }
 
 #about-box {
-    width: 20%;
-    text-align: center;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(217, 217, 235);
+}
 
+#image-about {
+background-image: url(../images/book.jpg);
+background-repeat: no-repeat;
+background-position: center;
+width: 500px;
+height: 250px;
+position: absolute;
+top: 125px;
+right: 250px;
+z-index: 1;
+}
+
+#text-about-box{
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    right: 700px;
     color: black;
-    margin-top: 80px;
     letter-spacing: 1.5px;
     padding: 15px;
     border: 1.5px solid black;
-    border-radius: 21%;
     background-color:rgba(123, 123, 206, 0.593)
 }
 
-#inner-about-box{
-    display: inline-block; 
+#text-about-box  p, h3 {
+text-align: center;
+padding: 5px;
 }
 
-#inner-about-box  p, h3 {
-text-align: center;
-}
+#text-about-box  p {
+    margin: 50px;
+    }
 
 /* Reason box styling */
 #reason-title {
@@ -139,9 +166,9 @@ text-align: center;
 /* change the names of the id and style more*/
 #aside-cent {
     position: absolute;
-    top: 930px;
+    top: 1630px;
     color: #fff;
-    left: 55%;
+    left: 950px;
     right: 10%
 }
 
