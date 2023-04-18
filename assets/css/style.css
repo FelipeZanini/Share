@@ -113,7 +113,7 @@ p {
     color: white;
     letter-spacing: 1.5px;
     padding: 15px;
-    border: 1.5px solid black;
+    border: 2px solid black;
     background-color: rgba(16 9 48 / 91%);
     z-index: 1;
 }
@@ -126,6 +126,12 @@ h3 {
 
 #text-about-box p {
     margin: 50px;
+    font-size: 110%;
+}
+
+#text-about-box h3 {
+    font-size: 180%;
+    padding-top: 25px;
 }
 
 /* reason box styling */
@@ -145,15 +151,16 @@ h3 {
 }
 
 #reason-box-title {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-
-    background-color: rgba(16 9 48 / 91%);
+    position: absolute;
+    top: 900px;
+    left: 500px;
+    background-color: rgba(16 9 48 /100%);
+    border: 2px solid black;
+    border-radius: 10px;
     color: white;
-    font-size: 145%;
+    font-size: 170%;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -163,6 +170,7 @@ h3 {
 
     color: white;
     background-color: rgba(16 9 48 / 91%);
+    border: 2px solid black;
     margin: 35px 60px;
     border-radius: 70px;
 }
@@ -172,6 +180,7 @@ h3 {
 
     margin: 0 auto;
     text-align: center;
+    font-size: 110%;
 }
 
 .reason-box>h3 {
@@ -201,7 +210,7 @@ h3 {
     left: 50%;
     top: 40px;
     transform: translate(-50%);
-    font-size: 180%;
+    font-size: 170%;
     background-color: rgba(43, 40, 40, 0.6);
     border-radius: 10px;
     color: white;
@@ -209,6 +218,7 @@ h3 {
 
 #meet-text > p {
     padding-top: 6px;
+    font-size: 110%;
 }
 #meet-text > h3 {
     font-size: 130%;
