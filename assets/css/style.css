@@ -20,7 +20,7 @@ p {
 #logo {
     height: 246px;
 
-    font-size: 270%;
+    font-size: 300%;
     text-align: center;
     letter-spacing: 3px;
     color: #fff;
@@ -184,7 +184,7 @@ h3 {
 }
 
 .reason-box>h3 {
-    font-size: 130%;
+    font-size: 140%;
     margin-top: 30px;
     margin-bottom: 15px;
 }
@@ -216,20 +216,13 @@ h3 {
     color: white;
 }
 
-#meet-text > p {
-    padding-top: 6px;
-    font-size: 110%;
-}
-#meet-text > h3 {
-    font-size: 130%;
-}
-
 #meet-aside {
-    width: 450px;
+    width: 470px;
     height: 80px;
 
     position: relative;
     text-align: center;
+    font-size: 110%;
     background-color: rgba(43, 40, 40, 0.6);
     border-radius: 10px;
     color: white;
@@ -238,9 +231,9 @@ h3 {
 }
 
 #meet-aside>p {
-padding-top: 12px;
+    padding-top: 12px;
 }
-    
+
 
 /*style of map */
 #map {
