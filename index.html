@@ -18,11 +18,11 @@
     <!-- Header element, contains a background image, the title as the nav menu. -->
     <header id="background-image">
         <h1 id="logo" class="horizontal-align vertical-align">Share knowledge</h1>
-        <nav id="nav-menu">
+        <nav id="nav-menu" aria-label="navegation links">
             <ul id="nav-links">
-                <a href="index.html" class="actived">Home</a>
-                <a href="#reason-box-title">Reasons</a>
-                <a href="form.html">Sign Up</a>
+                <a href="index.html" aria-label="go to home page" class="actived">Home</a>
+                <a href="index.html#reason-box-title" aria-label="go to reasons section">Reasons</a>
+                <a href="form.html" aria-label="go to sign up form">Sign Up</a>
             </ul>
         </nav>
     </header>
@@ -93,16 +93,19 @@
     </main>
 
     <!-- Footer section, with the social media links. -->
-    <footer>
+    <footer aria-label="social media links">
         <ul id="media-box">
             <li>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"
+                    aria-label="open a new tab of our facebook webpage"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                    aria-label="open a new tab of our instagram webpage"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://twitter.com/" target="_blank" aria-label="open a new tab of our twitter webpage"><i
+                        class="fab fa-twitter-square"></i></a>
             </li>
         </ul>
     </footer>

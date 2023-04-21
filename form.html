@@ -19,16 +19,17 @@
     <!-- Header element, contains a background image, the title as the nav menu. -->
     <header id="background-image">
         <h1 id="logo" class="horizontal-align vertical-align">Share knowledge</h1>
-        <nav id="nav-menu">
+        <nav id="nav-menu" aria-label="navegation links">
             <ul id="nav-links">
-                <a href="index.html">Home</a>
-                <a href="index.html#reason-box-title">Reasons</a>
-                <a href="form.html" class="actived">Sign Up</a>
+                <a href="index.html" aria-label="go to home page">Home</a>
+                <a href="index.html#reason-box-title" aria-label="go to reasons section">Reasons</a>
+                <a href="form.html" class="actived" aria-label="go to sign up form">Sign Up</a>
             </ul>
         </nav>
     </header>
     <main>
-        <form id="form">
+        <!--WHAT IS THE BEST APROCH TO USE ARIAL LABEL ON THIS BLOCK?-->
+        <form id="form" aria-label="form for sign up">
             <fieldset>
                 <legend id="form-elements">Sign Up</legend>
 
@@ -36,7 +37,8 @@
                 <input type="text" id="name" class="block-level" name="username" placeholder="Username" required>
 
                 <label for="password" class="input-style">Password</label>
-                <input type="password" id="password" class="block-level" name="password" placeholder="Password" required>
+                <input type="password" id="password" class="block-level" name="password" placeholder="Password"
+                    required>
 
                 <label for="email" class="input-style">E-mail</label>
                 <input type="email" id="email" class="block-level" name="e-mail" placeholder="E-mail" required>
@@ -50,16 +52,19 @@
 
 
     <!-- Footer section, with the social media links. -->
-    <footer>
+    <footer aria-label="social media links">
         <ul id="media-box">
             <li>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"
+                    aria-label="open a new tab of our facebook webpage"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                    aria-label="open a new tab of our instagram webpage"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://twitter.com/" target="_blank" aria-label="open a new tab of our twitter webpage"><i
+                        class="fab fa-twitter-square"></i></a>
             </li>
         </ul>
     </footer>
