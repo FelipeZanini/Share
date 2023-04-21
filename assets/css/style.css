@@ -148,7 +148,7 @@ h3 {
     padding: 60px;
     flex-wrap: wrap;
     background-color: #fffbc2;
-    background-image: url(../images/bookreason.jpg) border;
+    background-image: url(../images/bookreason.jpg);
     /* HOW TO ADD A BORDER-RADIUS TO THAT IMAGE */
     background-repeat: no-repeat;
     background-position: center;
@@ -358,4 +358,170 @@ input[type=submit]:hover {
 }
 
 /* media queries */
-@media screen and (max-width:360px) {}
+@media screen and (max-width:390px) {
+
+    #nav-menu {
+        height: 55px;
+
+        position: static;
+        border-radius: 5px;
+        background-color: #051938;
+    }
+
+    /* navegation links */
+    #nav-links {
+        position: static;
+        transform: translateX(0%);
+        text-align: center;
+        padding: 6px;
+    }
+
+    #nav-links>a:hover {
+        letter-spacing: 1.3px;
+    }
+
+    /* Join Us block, style and image */
+    #about-box {
+        height: 700px;
+
+        position: static;
+        background-color: #fffbc2;
+    }
+
+    #image-about {
+        height: 400px;
+
+        background-image: url(../images/book-3387071_960_720.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        border-radius: 50%;
+        position: static;
+    }
+
+    #text-about-box {
+        height: 250px;
+        width: 350px;
+
+        border-radius: 10px;
+        position: static;
+        color: white;
+        letter-spacing: 1.5px;
+        border: 2px solid black;
+        background-color: rgba(16 9 48 / 91%);
+    }
+
+    #text-about-box p,
+    h3 {
+        text-align: center;
+    }
+
+    #text-about-box p {
+        font-size: 80%;
+    }
+
+    #text-about-box h3 {
+        font-size: 130%;
+    }
+
+    #reason-container {
+        height: 600px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+        flex-wrap: wrap;
+        background-color: #fffbc2;
+        background-image: url(../images/bookreason.jpg) border;
+        /* HOW TO ADD A BORDER-RADIUS TO THAT IMAGE */
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #reason-box-title {
+        position: static;
+        top: 900px;
+        left: 500px;
+        background-color: rgba(16 9 48 /100%);
+        border: 2px solid black;
+        border-radius: 10px;
+        color: white;
+        font-size: 170%;
+        margin: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .reason-box {
+        width: 350px;
+        height: 220px;
+
+        color: white;
+        background-color: rgba(16 9 48 / 91%);
+        border: 2px solid black;
+        margin: 35px 60px;
+        border-radius: 70px;
+    }
+
+    .reason-box>p {
+        width: 60%;
+
+        margin: 0 auto;
+        text-align: center;
+        font-size: 110%;
+    }
+
+    .reason-box>h3 {
+        font-size: 140%;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    /* meet up box style */
+    #meet-box {
+        height: 500px;
+        width: 100%;
+
+        background-color: #fffbc2;
+        background-image: url(../images/meet-up.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #meet-text {
+        height: 150px;
+        width: 700px;
+
+        text-align: center;
+        position: static;
+        left: 50%;
+        top: 40px;
+        transform: translate(-50%);
+        font-size: 170%;
+        background-color: rgba(43, 40, 40, 0.6);
+        border-radius: 10px;
+        color: white;
+    }
+
+    #meet-aside {
+        width: 300px;
+        height: 80px;
+
+        position: static;
+        text-align: center;
+        font-size: 110%;
+        background-color: rgba(43, 40, 40, 0.6);
+        border-radius: 10px;
+        color: white;
+        top: 240px;
+        left: 950px;
+    }
+
+    #meet-aside>p {
+        padding-top: 12px;
+    }
+
+
+
+}
