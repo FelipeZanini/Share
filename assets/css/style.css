@@ -155,17 +155,21 @@ h3 {
 }
 
 #reason-box-title {
-    position: absolute;
-    top: 900px;
-    left: 500px;
-    background-color: rgba(16 9 48 /100%);
-    border: 2px solid black;
-    border-radius: 10px;
+    background-color: #fffbc2;
     color: white;
     font-size: 170%;
     margin: 0;
-    padding-top: 20px;
     text-align: center;
+}
+
+#reason-box-title>h3 {
+width: 40%;
+background-color: rgba(16 9 48 /100%);
+border-radius: 10px;
+margin: 0 auto;
+padding-top: 20px;
+border: 2px solid black;
+
 }
 
 .reason-box {
@@ -435,33 +439,34 @@ input[type=submit]:hover {
         padding: 0;
         flex-wrap: wrap;
         background-color: #fffbc2;
-        background-image: url(../images/bookreason.jpg) border;
+        /* add a new background image here, at least 800 px of height */
         /* HOW TO ADD A BORDER-RADIUS TO THAT IMAGE */
-        background-repeat: no-repeat;
-        background-position: center;
+        background-image: none;
     }
 
     #reason-box-title {
-        position: static;
-        background-color: rgba(16 9 48 /100%);
-        border: 2px solid black;
         border-radius: 10px;
+        font-size: 130%;
         color: white;
-        font-size: 100%;
-        margin: 0;
-        padding-top: 0;
         text-align: center;
     }
-
+    #reason-box-title>h3 {
+        width: 90%;
+        background-color: rgba(16 9 48 /100%);
+        border-radius: 10px;
+        margin: 0 auto;
+        padding-top: 10px;
+        border: 2px solid black;
+    }
     .reason-box {
-        width: 350px;
-        height: 220px;
+        width: 80%;
+        height: 170px;
 
         color: white;
         background-color: rgba(16 9 48 / 91%);
         border: 2px solid black;
         margin: 0 0;
-        border-radius: 0;
+        border-radius: 10px;
     }
 
     .reason-box>p {
@@ -469,12 +474,12 @@ input[type=submit]:hover {
 
         margin: 0 auto;
         text-align: center;
-        font-size: 110%;
+        font-size: 100%;
     }
 
     .reason-box>h3 {
         font-size: 120%;
-        margin-top: 30px;
+        margin-top: 15px;
         margin-bottom: 15px;
     }
 
