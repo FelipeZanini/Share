@@ -273,11 +273,10 @@ h3 {
     background-size: cover;
 }
 #form-elements {
-    margin-top: 50px;
+    color: white;
     margin-left: 50px;
     margin-bottom: 15px;
     font-size: 200%;
-    background-color: rgba(43, 40, 40, 0.6);
 }
 
 fieldset {
@@ -331,4 +330,5 @@ input[type=submit]:hover {
 
 .input-style, .block-level {
     margin-left: 25px;
+    color: white;
 }
