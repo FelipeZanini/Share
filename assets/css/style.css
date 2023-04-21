@@ -382,54 +382,57 @@ input[type=submit]:hover {
 
     /* Join Us block, style and image */
     #about-box {
-        height: 700px;
+        height: 400px;
+        width: 100%;
 
-        position: static;
+        position: relative;
         background-color: #fffbc2;
     }
 
     #image-about {
         height: 400px;
+        width: 100%;
 
         background-image: url(../images/book-3387071_960_720.jpg);
         background-repeat: no-repeat;
         background-position: top;
-        border-radius: 50%;
+        border-radius: 0;
         position: static;
     }
 
     #text-about-box {
         height: 250px;
-        width: 350px;
+        width: 100%;
 
         border-radius: 10px;
-        position: static;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         color: white;
+        padding: 0;
         letter-spacing: 1.5px;
         border: 2px solid black;
-        background-color: rgba(16 9 48 / 91%);
-    }
-
-    #text-about-box p,
-    h3 {
-        text-align: center;
+        background-color: rgba(16, 9, 48, 0.429);
     }
 
     #text-about-box p {
         font-size: 80%;
+        margin: 0 6%;
     }
 
     #text-about-box h3 {
         font-size: 130%;
+        padding: 8% 0;
     }
 
     #reason-container {
-        height: 600px;
+        height: 1000px;
 
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 60px;
+        padding: 0;
         flex-wrap: wrap;
         background-color: #fffbc2;
         background-image: url(../images/bookreason.jpg) border;
@@ -440,15 +443,13 @@ input[type=submit]:hover {
 
     #reason-box-title {
         position: static;
-        top: 900px;
-        left: 500px;
         background-color: rgba(16 9 48 /100%);
         border: 2px solid black;
         border-radius: 10px;
         color: white;
-        font-size: 170%;
+        font-size: 100%;
         margin: 0;
-        padding-top: 20px;
+        padding-top: 0;
         text-align: center;
     }
 
@@ -459,8 +460,8 @@ input[type=submit]:hover {
         color: white;
         background-color: rgba(16 9 48 / 91%);
         border: 2px solid black;
-        margin: 35px 60px;
-        border-radius: 70px;
+        margin: 0 0;
+        border-radius: 0;
     }
 
     .reason-box>p {
@@ -472,7 +473,7 @@ input[type=submit]:hover {
     }
 
     .reason-box>h3 {
-        font-size: 140%;
+        font-size: 120%;
         margin-top: 30px;
         margin-bottom: 15px;
     }
