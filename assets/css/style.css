@@ -374,86 +374,43 @@ input[type=submit]:hover {
 }
 
 /* media queries */
-@media screen and (max-width:390px) {
-
-    #nav-menu {
-        height: 55px;
-
-        position: static;
-        border-radius: 5px;
-        background-color: #051938;
-    }
-
-    /* navegation links */
+@media screen and (max-width:370px) {
+    /* nav links style */
     #nav-links {
-        position: static;
-        transform: translateX(0%);
-        text-align: center;
-        padding: 6px;
-    }
-
-    #nav-links>a:hover {
-        letter-spacing: 1.3px;
-    }
-
-    /* Join Us block, style and image */
-    #about-box {
-        height: 400px;
-        width: 100%;
-
-        position: relative;
-        background-color: #fffbc2;
-    }
-
-    #image-about {
-        height: 400px;
-        width: 100%;
-
-        background-image: url(../images/book-3387071_960_720.jpg);
-        background-repeat: no-repeat;
-        background-position: top;
-        border-radius: 0;
-        position: static;
-    }
-
-    #text-about-box {
-        height: 250px;
-        width: 100%;
-
-        border-radius: 10px;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        padding: 0;
-        letter-spacing: 1.5px;
-        border: 2px solid black;
-        background-color: rgba(16, 9, 48, 0.429);
+        left: 0%;
+        transform: translateX(-0%);
+        padding: 12px 24px;
     }
-
+    /* About Box style */
+    #about-box {
+    height: 450px;
+    }
+    
+    #image-about{
+        width: 80%;
+        height: 60%;    
+    }
+    #text-about-box {
+        width: 80%;
+        height: 60%;
+        padding: 15px;
+    }
+    
     #text-about-box p {
-        font-size: 80%;
-        margin: 0 6%;
+        margin: 20px;
+        font-size: 90%;
     }
-
+    
     #text-about-box h3 {
-        font-size: 130%;
-        padding: 8% 0;
+        font-size: 150%;
+        padding-top: 25px;
     }
-
+/* Reason Box Title */
     #reason-container {
-        height: 1000px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        flex-wrap: wrap;
-        background-color: #fffbc2;
-        /* add a new background image here, at least 800 px of height */
-        /* HOW TO ADD A BORDER-RADIUS TO THAT IMAGE */
         background-image: none;
+        padding: 22px;
+        height: 500px;
     }
 
     #reason-box-title {
@@ -471,28 +428,28 @@ input[type=submit]:hover {
         border: 2px solid black;
     }
     .reason-box {
-        width: 80%;
-        height: 170px;
+        width: 45%;
+        height: 190px;
 
         color: white;
         background-color: rgba(16 9 48 / 91%);
         border: 2px solid black;
-        margin: 0 0;
+        margin: 5px 5px;
         border-radius: 10px;
     }
 
     .reason-box>p {
-        width: 60%;
+        width: 80%;
 
         margin: 0 auto;
         text-align: center;
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .reason-box>h3 {
         font-size: 120%;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 14px;
+        margin-bottom: 8px;
     }
 
     /* meet up box style */
