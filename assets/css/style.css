@@ -6,8 +6,12 @@
 
 body {
     /*font family and weigth */
+    background-color: #fffbc2;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* header style (navegation, icons and logo) */
 h2,
@@ -169,7 +173,7 @@ h3 {
 }
 
 #reason-box-title>h3 {
-width: 40%;
+width: 60%;
 background-color: rgba(16 9 48 /100%);
 border-radius: 10px;
 margin: 0 auto;
@@ -225,7 +229,7 @@ border: 2px solid black;
     left: 30%;
     top: 30%;
     transform: translate(-30%, -50%);
-    font-size: 140%;
+    font-size: 170%;
     background-color: rgba(43, 40, 40, 0.6);
     border-radius: 10px;
     color: white;
@@ -410,7 +414,6 @@ input[type=submit]:hover {
     }
 /* Reason Box Title */
     #reason-container {
-        background-image: none;
         padding: 22px;
         height: 500px;
     }
@@ -465,15 +468,26 @@ input[type=submit]:hover {
 
 @media screen and (max-width:640px) {
     #text-about-box, #image-about {
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: 80%;
+    }
+
+    #text-about-box h3 {
+        padding-top: 33px;
     }
     .reason-box {
         width: 40%;
         margin: 0px 12px;
+        border-radius: 40px;
     }
     .reason-box > p {
-        width: 75%;
+        width: 80%;
+    }
+
+    .reason-box >h3 {
+        margin-top: 26px;
+        margin-bottom: 6px;
+        padding: 6px;
     }
     
     #nav-menu {
@@ -491,20 +505,21 @@ input[type=submit]:hover {
 @media screen and (max-width:810px) {
     #reason-box-title> h3 {
         font-size: 110%;
+        width: 80%;
     }
     #text-about-box p {
         margin: 25px;
     }
 
     #text-about-box, #image-about {
-        width: 70%;
         height: 70%;
     }
 }
 
 @media screen and (max-width:1074px) {
     #reason-box-title>h3 {
-        margin-bottom: 10px;
+        margin-bottom: 30px;
+        width: 50%;
     }
     #reason-container {
     padding: 0;
@@ -515,7 +530,12 @@ input[type=submit]:hover {
  }
 
  #text-about-box, #image-about {
-    width: 70%;
     height: 70%;
 }
+}
+
+@media screen and (max-width:1200px) {
+    #reason-box-title>h3 {
+        width: 70%;
+    }
 }
