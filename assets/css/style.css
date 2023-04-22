@@ -452,15 +452,20 @@ input[type=submit]:hover {
     }
 
     .reason-box>h3 {
-        font-size: 120%;
+        font-size: 130%;
         margin-top: 14px;
         margin-bottom: 8px;
     }
 
     /* meet up box style */
-    #meet-text {
-        font-size: 130%;   
+    #meet-text>h3 {
+        font-size: 90%;   
     }
+
+    #meet-text>p {
+        font-size: 70%;   
+    }
+
     #meet-aside {
         font-size: 90%;    
     }
@@ -482,17 +487,38 @@ input[type=submit]:hover {
     }
     .reason-box > p {
         width: 80%;
+        font-size: 90%;
     }
 
     .reason-box >h3 {
         margin-top: 26px;
         margin-bottom: 6px;
         padding: 6px;
+        font-size: 130%;
     }
     
     #nav-menu {
         white-space:nowrap;
         overflow:hidden;
+    }
+
+    #meet-text>h3 {
+        font-size: 100%;   
+    }
+
+    #meet-text>p {
+        font-size: 80%;   
+    }
+
+    #meet-aside {
+        font-size: 90%;
+    }
+    fieldset {
+    height: 320px;
+    width: 280px;
+    position: relative;
+    top: 8%;
+    left: 7%;
     }
 }
 @media screen and (max-width:762px) {
@@ -537,5 +563,18 @@ input[type=submit]:hover {
 @media screen and (max-width:1200px) {
     #reason-box-title>h3 {
         width: 70%;
+    }
+}
+
+@media screen and (min-width:1539px) {
+ 
+    .reason-box {
+        width: 50%;
+        height: 140px;
+        margin: 40px auto;
+    }
+
+    #reason-container {
+        display: inline;
     }
 }
