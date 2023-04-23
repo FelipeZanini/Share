@@ -33,27 +33,27 @@ Being a means to gather readers from all over Dublin, the Share Knowledge projec
     *the footer includes links to the social media sites for the Share Knowledge project, which will open in a new tab.
 ![Footer Section](../Share/assets/images/footer.jpg)
 - __The Sign-Up Page__
-    *The sign-up page allows the user to register and become a member of our website.
-![Sign Up Section](../Share/assets/images/)
+- The sign-up page allows the user to register and become a member of our website.
+![Sign Up Section](../Share/assets/images/Sign-up-section.jpg)
 
 ### Features Left to Implement
-    -Would be a good idea to implement a gallery page with the photos of our meets.
-    -Would be great to have a  page with a complete book collection to be shared among the community.
+-   Would be a good idea to implement a gallery page with the photos of our meets.
+-   Would be great to have a  page with a complete book collection to be shared among the community.
 
 ## Testing
-    *I conducted several tests on the program during development, at first the website was made for a screen of 1300 pixels wide and for this reason, I had several problems achieving responsive design.  I had to change the navigation link to the centre, and also changed the size of the "Join Us Section" element a few times to better respond to different types of screens, however the most challenging was changing the "Reason Section" elements; I used flexbox to style it, but when the screen shrank I had numerous design breaks on the page, although changing the margin, width and font size of the elements for multiple screen sizes I could manage it, achieving a responsive design, I just had few problems changing the "MeetUp Section" and the "Footer Section", It was only necessary to change the height and font size were enough, while the "Sign Up" page required changes in the position and width of the fieldset.
+-   I conducted several tests on the program during development, at first the website was made for a screen of 1300 pixels wide and for this reason, I had several problems achieving responsive design.  I had to change the navigation link to the centre, and also changed the size of the "Join Us Section" element a few times to better respond to different types of screens, however the most challenging was changing the "Reason Section" elements; I used flexbox to style it, but when the screen shrank I had numerous design breaks on the page, although changing the margin, width and font size of the elements for multiple screen sizes I could manage it, achieving a responsive design, I just had few problems changing the "MeetUp Section" and the "Footer Section", It was only necessary to change the height and font size were enough, while the "Sign Up" page required changes in the position and width of the fieldset.
 
 ## Validator Testing
-    *No errors were returned when passing through the official [W3C](https://validator.w3.org/) validator.
-    *No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator
+- No errors were returned when passing through the official [W3C](https://validator.w3.org/) validator.
+- No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator
 
 # Deployment
-    -The site was deployed to GitHub pages. The steps are:
-    -In the GitHub repository, navigate to the Settings tab
-    -From the source section drop-down menu, select the Master Branch
-    -Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+> The site was deployed to GitHub pages. The steps are:
+> In the GitHub repository, navigate to the Settings tab
+> From the source section drop-down menu, select the Master Branch
+> Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-    -The live link can be found here: [My Site](https://felipezanini.github.io/Share/)
+- The live link can be found here: [My Site](https://felipezanini.github.io/Share/)
 
 ## Credits:
 - __Content__ 
