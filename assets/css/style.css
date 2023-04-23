@@ -427,6 +427,10 @@ input[type=submit]:hover {
 
 @media screen and (max-width:640px) {
 
+    #about-box {
+        height: 490px;
+    }
+    
     #text-about-box,
     #image-about {
         width: 80%;
@@ -618,11 +622,11 @@ input[type=submit]:hover {
         background-position: center;
     }
 
-    .reason-box p, h3 {
+    .reason-box h3, .reason-box p {
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 8px;
     }
-
+    
     #reason-container {
         background-image: none;
         height: 900px;
