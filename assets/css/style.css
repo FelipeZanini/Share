@@ -58,7 +58,7 @@ p {
 
     position: relative;
     border-radius: 5px;
-    background-color: #051938;
+    background-color: rgb(0, 0, 0);
     z-index: 2;
 }
 
@@ -70,9 +70,11 @@ p {
     padding: 12px 0;
     list-style-type: none;
 }
+
 #nav-links li {
     display: inline-block;
 }
+
 #nav-links a {
     text-decoration: none;
     letter-spacing: 2px;
@@ -100,7 +102,7 @@ p {
     background-color: #fffbc2;
 }
 
-#image-about{
+#image-about {
     width: 50%;
     height: 60%;
 
@@ -114,8 +116,8 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
-
 }
+
 #text-about-box {
     width: 50%;
     height: 60%;
@@ -126,7 +128,7 @@ p {
     letter-spacing: 1.5px;
     padding: 15px;
     border: 2px solid black;
-    background-color: rgba(43, 40, 40, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 1;
     top: 50%;
     left: 50%;
@@ -158,14 +160,12 @@ h3 {
     align-items: center;
     padding: 60px;
     flex-wrap: wrap;
-    background-color: #fffbc2;
     background-image: url(../images/bookreason.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #reason-box-title {
-    background-color: #fffbc2;
     color: white;
     font-size: 170%;
     margin: 0;
@@ -173,12 +173,12 @@ h3 {
 }
 
 #reason-box-title>h3 {
-width: 60%;
-background-color: rgba(16 9 48 /100%);
-border-radius: 10px;
-margin: 0 auto;
-padding-top: 20px;
-border: 2px solid black;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border: 2px solid black;
 
 }
 
@@ -187,7 +187,7 @@ border: 2px solid black;
     height: 220px;
 
     color: white;
-    background-color: rgba(16 9 48 / 91%);
+    background-color: rgba(0, 0, 0, 0.822);
     border: 2px solid black;
     margin: 35px 60px;
     border-radius: 70px;
@@ -213,7 +213,6 @@ border: 2px solid black;
     width: 100%;
 
     position: relative;
-    background-color: #fffbc2;
     background-image: url(../images/meet-up.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -230,7 +229,7 @@ border: 2px solid black;
     top: 30%;
     transform: translate(-30%, -50%);
     font-size: 170%;
-    background-color: rgba(43, 40, 40, 0.6);
+    background-color: rgba(0, 0, 0, 0.75);
     border-radius: 10px;
     color: white;
 }
@@ -242,7 +241,7 @@ border: 2px solid black;
     position: absolute;
     text-align: center;
     font-size: 110%;
-    background-color: rgba(43, 40, 40, 0.6);
+    background-color: rgba(0, 0, 0, 0.75);
     border-radius: 10px;
     color: white;
     top: 80%;
@@ -271,7 +270,7 @@ border: 2px solid black;
 
     text-align: center;
     list-style-type: none;
-    background-color: #051938;
+    background-color: #000000;
     margin: 0;
 }
 
@@ -315,7 +314,7 @@ fieldset {
     top: 70px;
     left: 140px;
     border: 1.5px solid black;
-    background-color: rgba(43, 40, 40, 0.6);
+    background-color: rgba(0, 0, 0, 0.75);
     border-radius: 15px;
 }
 
@@ -378,6 +377,7 @@ input[type=submit]:hover {
 
 /* media queries */
 @media screen and (max-width:370px) {
+
     /* nav links style */
     #nav-links {
         position: absolute;
@@ -385,34 +385,38 @@ input[type=submit]:hover {
         transform: translateX(-0%);
         padding: 12px 24px;
     }
+
     #nav-links a {
         margin: 5px 5px;
     }
+
     /* About Box style */
     #about-box {
-    height: 450px;
+        height: 450px;
     }
-    
-    #image-about{
+
+    #image-about {
         width: 80%;
-        height: 60%;    
+        height: 60%;
     }
+
     #text-about-box {
         width: 80%;
         height: 60%;
         padding: 15px;
     }
-    
+
     #text-about-box p {
         margin: 20px;
         font-size: 90%;
     }
-    
+
     #text-about-box h3 {
         font-size: 150%;
         padding-top: 25px;
     }
-/* Reason Box Title */
+
+    /* Reason Box Title */
     #reason-container {
         padding: 22px;
         height: 500px;
@@ -424,20 +428,20 @@ input[type=submit]:hover {
         color: white;
         text-align: center;
     }
+
     #reason-box-title>h3 {
         width: 90%;
-        background-color: rgba(16 9 48 /100%);
         border-radius: 10px;
         margin: 0 auto;
         padding-top: 10px;
         border: 2px solid black;
     }
+
     .reason-box {
         width: 45%;
         height: 190px;
 
         color: white;
-        background-color: rgba(16 9 48 / 91%);
         border: 2px solid black;
         margin: 5px 5px;
         border-radius: 10px;
@@ -459,20 +463,22 @@ input[type=submit]:hover {
 
     /* meet up box style */
     #meet-text>h3 {
-        font-size: 90%;   
+        font-size: 90%;
     }
 
     #meet-text>p {
-        font-size: 70%;   
+        font-size: 70%;
     }
 
     #meet-aside {
-        font-size: 90%;    
+        font-size: 90%;
     }
 }
 
 @media screen and (max-width:640px) {
-    #text-about-box, #image-about {
+
+    #text-about-box,
+    #image-about {
         width: 80%;
         height: 80%;
     }
@@ -480,47 +486,51 @@ input[type=submit]:hover {
     #text-about-box h3 {
         padding-top: 33px;
     }
+
     .reason-box {
         width: 40%;
         margin: 0px 12px;
         border-radius: 40px;
     }
-    .reason-box > p {
+
+    .reason-box>p {
         width: 80%;
         font-size: 90%;
     }
 
-    .reason-box >h3 {
+    .reason-box>h3 {
         margin-top: 26px;
         margin-bottom: 6px;
         padding: 6px;
         font-size: 130%;
     }
-    
+
     #nav-menu {
-        white-space:nowrap;
-        overflow:hidden;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
     #meet-text>h3 {
-        font-size: 100%;   
+        font-size: 100%;
     }
 
     #meet-text>p {
-        font-size: 80%;   
+        font-size: 80%;
     }
 
     #meet-aside {
         font-size: 90%;
     }
+
     fieldset {
-    height: 320px;
-    width: 280px;
-    position: relative;
-    top: 8%;
-    left: 7%;
+        height: 320px;
+        width: 280px;
+        position: relative;
+        top: 8%;
+        left: 7%;
     }
 }
+
 @media screen and (max-width:762px) {
     .reason-box {
         width: 40%;
@@ -529,15 +539,17 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width:810px) {
-    #reason-box-title> h3 {
+    #reason-box-title>h3 {
         font-size: 110%;
         width: 80%;
     }
+
     #text-about-box p {
         margin: 25px;
     }
 
-    #text-about-box, #image-about {
+    #text-about-box,
+    #image-about {
         height: 70%;
     }
 }
@@ -547,17 +559,19 @@ input[type=submit]:hover {
         margin-bottom: 30px;
         width: 50%;
     }
+
     #reason-container {
-    padding: 0;
- }
+        padding: 0;
+    }
 
- .reason-box {
-    margin: 10px 14px;
- }
+    .reason-box {
+        margin: 10px 14px;
+    }
 
- #text-about-box, #image-about {
-    height: 70%;
-}
+    #text-about-box,
+    #image-about {
+        height: 70%;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -567,7 +581,7 @@ input[type=submit]:hover {
 }
 
 @media screen and (min-width:1539px) {
- 
+
     .reason-box {
         width: 50%;
         height: 140px;
