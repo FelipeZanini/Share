@@ -1,108 +1,54 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#__Share Knowledge__
 
-Welcome Felipe Silva,
+Share Knowledge is a project designed for book lovers who want to share their stories and hear fascinating stories told by those who love them the most, with each member briefly describing their chosen book and what they thought of it, then each member has the opportunity to share their books among each other.
+Being a means to gather readers from all over Dublin, the Share Knowledge project is a  mixed theme book club, so it achieves broad horizons of reading, to broaden the knowledge horizons of the members, furthermore, the Share Knowledge project aims at the member's socialization through the power of reading.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+#Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+##Existing Features
 
-## Gitpod Reminders
+###Navigation Bar
+  *Navigation bar, allows the user to navigate between our four pages, Home, Reasons, Sign Up and Meet Up, two of them a direct link for the content on the main page, respectively Reasons and Meet Up, responsive bar and easily allows the user to navigate through the page.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+###The Join Us Section
+   *This section introduces the shared knowledge project to the user, telling about whom it was made for, and what is its purpose.
 
-`python3 -m http.server`
+###Reasons to Join our Book Club
+    *This section introduces the user to the benefits to join our book club, focusing on the meetups, and encouraging the user to sign up and become a member.
 
-A blue button should appear to click: _Make Public_,
+###Meetup Section
+    *Meetups Section allows the users to see the schedule of the meetups, and where will happen, there is also an aside in this section, encouraging the user to be present in the meetups.
 
-Another blue button should appear to click: _Open Browser_.
+###Map Section
+    *This section allows the user to have a prospect of where the event will happen, and how to arrive at the meetup.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+###Footer Section 
+    *the footer includes links to the social media sites for the Share Knowledge project, which will open in a new tab.
 
-A blue button should appear to click: _Make Public_,
+###The Sign-Up Page
+    *The sign-up page allows the user to register and become a member of our website.
 
-Another blue button should appear to click: _Open Browser_.
+##Features Left to Implement
+    *Would be a good idea to implement a gallery page with the photos of our meets.
+    *Would be great to have a  page with a complete book collection to be shared among the community.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+##Testing
+    *I conducted several tests on the program during development, at first the website was made for a screen of 1300 pixels wide and for this reason, I had several problems achieving responsive design.  I had to change the navigation link to the centre, and also changed the size of the "Join Us Section" element a few times to better respond to different types of screens, however the most challenging was changing the "Reason Section" elements; I used flexbox to style it, but when the screen shrank I had numerous design breaks on the page, although changing the margin, width and font size of the elements for multiple screen sizes I could manage it, achieving a responsive design, I just had few problems changing the "MeetUp Section" and the "Footer Section", It was only necessary to change the height and font size were enough, while the "Sign Up" page required changes in the position and width of the fieldset.
 
-To log into the Heroku toolbelt CLI:
+##Validator Testing
+    *No errors were returned when passing through the official W3C validator.
+    *No errors were found when passing through the official (Jigsaw) validator
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+##>Deployment
+    *The site was deployed to GitHub pages. The steps are:
+    *In the GitHub repository, navigate to the Settings tab
+    *From the source section drop-down menu, select the Master Branch
+    *Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    *The live link can be found here: https://felipezanini.github.io/Share/form.html
 
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+##Credits:
+###Content 
+    *The icons in the footer were taken from Font Awesome
+###Media
+    *All the background images are from this open-source website: https://pixabay.com/
