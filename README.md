@@ -3,7 +3,7 @@
 Share Knowledge is a project designed for book lovers who want to share their stories and hear fascinating stories told by those who love them the most, with each member briefly describing their chosen book and what they thought of it, then each member has the opportunity to share their books among each other.
 Being a means to gather readers from all over Dublin, the Share Knowledge project is a  mixed theme book club, so it achieves broad horizons of reading, to broaden the knowledge horizons of the members, furthermore, the Share Knowledge project aims at the member's socialization through the power of reading.
 
-![Responsice Mockup](../Share/assets/images/mockup.jpg)
+![Responsice Mockup](assets/images/mockup.jpg)
 
 ## Features
 
@@ -11,30 +11,30 @@ Being a means to gather readers from all over Dublin, the Share Knowledge projec
 
 - __Navigation Bar__
     -Navigation bar, allows the user to navigate between our four pages, Home, Reasons, Sign Up and Meet Up, two of them a direct link for the content on the main page, respectively Reasons and Meet Up, responsive bar and easily allows the user to navigate through the page.
-![Navigation Bar](../Share/assets/images/nav-bar.jpg)
+![Navigation Bar](assets/images/nav-bar.jpg)
 
 - __The Join Us Section__
     -This section introduces the shared knowledge project to the user, telling about whom it was made for, and what is its purpose.
-![Join Us Section](../Share/assets/images/Join%20Us.jpg)
+![Join Us Section](assets/images/Join%20Us.jpg)
 
 - __Reasons to Join our Book Club__
     -This section introduces the user to the benefits to join our book club, focusing on the meetups, and encouraging the user to sign up and become a member.
-![Reason Section](../Share/assets/images/Reason%20section.jpg)
+![Reason Section](assets/images/Reason%20section.jpg)
 
 - __Meetup Section__
     -Meetups Section allows the users to see the schedule of the meetups, and where will happen, there is also an aside in this section, encouraging the user to be present in the meetups.
-![Meetup Section](../Share/assets/images/meetup-section.jpg)
+![Meetup Section](assets/images/meetup-section.jpg)
 
 - __Map Section__
     *This section allows the user to have a prospect of where the event will happen, and how to arrive at the meetup.
-![Map Section](../Share/assets/images/map-section.jpg)
+![Map Section](assets/images/map-section.jpg)
 
 - __Footer Section__
     *the footer includes links to the social media sites for the Share Knowledge project, which will open in a new tab.
-![Footer Section](../Share/assets/images/footer.jpg)
+![Footer Section](Share/assets/images/footer.jpg)
 - __The Sign-Up Page__
 - The sign-up page allows the user to register and become a member of our website.
-![Sign Up Section](../Share/assets/images/Sign-up-section.jpg)
+![Sign Up Section](Share/assets/images/Sign-up-section.jpg)
 
 ### Features Left to Implement
 -   Would be a good idea to implement a gallery page with the photos of our meets.
